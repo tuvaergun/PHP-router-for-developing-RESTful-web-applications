@@ -2,12 +2,6 @@
 
 Toro is a PHP router for developing RESTful web applications and APIs. It is designed for minimalists who want to get work done.
 
-## Quick Links
-
-- [Official Website](http://toroweb.org)
-- [Changelog](https://github.com/anandkunal/ToroPHP/wiki/Changelog)
-- [Design Goals](https://github.com/anandkunal/ToroPHP/wiki/Design-Goals)
-
 
 ## Features
 
@@ -146,17 +140,3 @@ Grab a copy of the repository and move `toro.php` to your htdocs or library dire
     RewriteCond $1 !^(index\.php)
     RewriteRule ^(.*)$ index.php/$1 [L]
 
-
-## Contributions
-
-- Toro was inspired by the [Tornado Web Server](http://www.tornadoweb.org) (FriendFeed/Facebook)
-- [Berker Peksag](http://berkerpeksag.com), [Martin Bean](http://www.martinbean.co.uk), [Robbie Coleman](http://robbie.robnrob.com), and [John Kurkowski](http://about.me/john.kurkowski) for bug fixes and patches
-- [Danillo César de O. Melo](https://github.com/danillos/fire_event/blob/master/Event.php) for `ToroHook`
-- [Jason Mooberry](http://jasonmooberry.com) for code optimizations and feedback
-
-Contributions to Toro are welcome via pull requests.
-
-
-## License
-
-ToroPHP was created by [Kunal Anand](http://kunalanand.com) and released under the MIT License.
